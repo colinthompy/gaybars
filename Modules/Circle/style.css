@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700');
+
+body{
+  background-color: #272D4D;
+  margin: 0px;
+}
+
+h1{
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 24pt;
+  color: white;
+  width: 33.3%;
+  margin-left: 33.3%;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+p{
+  font-family: "Roboto Slab";
+  color: white;
+  width: 33.3%;
+  margin-left: 33.3%;
+  padding-bottom: 10px;
+}
+
+.numberText{
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 24pt;
+  color: white;
+}

@@ -1,0 +1,110 @@
+
+/* Place your styles in this section */
+
+p {
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 20pt;
+}
+
+#photo{
+  max-width: 100%;
+  height: auto;
+}
+
+header{
+  width: 100%;
+  height: 400px;
+  background-image:url("images/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  /*"background-size:cover" makes an image 'stretch' (not as in actually stretching the image, but cropping it to fit, sort of)*/
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 32pt;
+  display: table;
+}
+
+h1{
+  font-family: Arial,Helvetica,sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* DEFAULT STYLES FOR TEMPLATE - DO NOT MODIFY */
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.full-width {
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.sticky-container {
+  position: relative;
+  z-index: 100;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sticky-content {
+  position: relative;
+  display: flex;
+  flex: 1 0 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 25px;
+  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.sticky-graphic {
+  z-index: -100;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  height: 100vh;
+  flex: 1 0 50%;
+  text-align: center;
+  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/* RESPONSIVE DESIGN: at the bottom so it OVERRIDES any pre-existing style properties that have been designed */
+
+/*@media queries essentially act as an if statement*/
+
+@media only screen and (max-width: 480px){
+
+  p{
+    font-size: 18pt;
+    color: green;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .sticky-content{
+    flex: 1 0 100%;
+  }
+
+  .sticky-graphic{
+    flex: 1 0 100%;
+  }
+
+  .sticky-container{
+    flex-wrap: wrap;
+  }
+
+}

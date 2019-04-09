@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Image Fade jQuery Test</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700');
+
+      body{
+        background-color: #272D4D;
+        margin: 0px;
+      }
+
+      h1{
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 24pt;
+        color: white;
+        width: 33.3%;
+        margin-left: 33.3%;
+        text-align: right;
+        text-transform: uppercase;
+      }
+
+      p{
+        font-family: "Roboto Slab";
+        color: white;
+        width: 33.3%;
+        margin-left: 33.3%;
+        padding-bottom: 10px;
+      }
+
+      .double-image img{
+        width: 100%;
+        margin-top: 5px;
+      }
+
+      .image-caption{
+        font-size: 10pt;
+        margin-top: -4px;
+      }
+
+      .map, .header{
+        width: 33.3%;
+        margin-left: 33.3%;
+      }
+
+      #bobbysChange{
+        position: relative;
+        height: 1000px;
+      }
+
+      #bobbysChange img{
+        position: absolute;
+        top: 100;
+      }
+
+      #bobbys{
+        z-index: 3;
+      }
+
+      #hBobbys{
+        z-index: 1;
+      }
+
+    </style>
+    <script src="lib/d3.v5.js"></script>
+    <script src="lib/noframework.waypoints.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="full-width">
+      <p>“There were no windows and no names because of the closeted aspect, so no one would know what you were doing really,” Cody said. “You would go into this doorway with no markings on it, so if someone saw you they wouldn’t know what it was.”</p>
+      <p>Beyond that, Cody said, gay life in Boston was limited.</p>
+      <p>“The only other option was going to the Fenway and having sex in the bushes, bathrooms, all that sleazy stuff,” Cody said. </p>
+      <p>LGBTQ+ culture in Boston didn’t begin as focused on bars and clubs. From the 1920s onward, they were common, according to Harvard media and activism professor Michael Bronski, author of “A Queer History of the United States.”</p>
+      <p>What began as a mix of outdoor spaces as well as bars and clubs, Bronski said, became more focused in a bar culture in the years following World War II. It became the way for members of the LGBTQ+ community to find and meet each other.</p>
+      <p>“You see this sort of thriving bar culture beginning then [in the late 1940s], and then really becoming the spine, in many ways, for the gay community, because no one had Twitter yet, nobody had Grindr, nobody had apps,” Bronski said.</p>
+      <p>The bars, in the face of the illegality of homosexual acts in cities across the country, often ended up in poorer parts of town where rents were cheaper and police were likely to harass owners and customers, Bronski said.</p>
+      <p>“They were not fancy or glamorous,” Bronski said. “They were literally on the down- low, in many ways.”</p>
+      <p>Bill Svetz, the owner of Cathedral Station, said that police “weren’t as friendly.”</p>
+      <p>“In the days, whether it be the police or the inspectors, they seemed to come in more often in those days to gay establishments,” Svetz said.</p>
+      <p>They were also more plentiful. According to records from the History Project, a Boston LGBTQ+ history organization, at least 15 bars opened in the 1980s alone.</p>
+      <p>The number of open gay bars in Boston has since sharply decreased.</p>
+    </div>
+      <div class="double-image" id="bobbysChange">
+        <img src="images/oldBobbys.jpg" id="bobbys" alt="Interior of Bobby's in the 1990s.">
+      </div>
+        <p class="image-caption"> Image caption </p>
+    <section class="full-width">
+      <p>“There were no windows and no names because of the closeted aspect, so no one would know what you were doing really,” Cody said. “You would go into this doorway with no markings on it, so if someone saw you they wouldn’t know what it was.”</p>
+      <p>Beyond that, Cody said, gay life in Boston was limited.</p>
+      <p>“The only other option was going to the Fenway and having sex in the bushes, bathrooms, all that sleazy stuff,” Cody said. </p>
+      <p>LGBTQ+ culture in Boston didn’t begin as focused on bars and clubs. From the 1920s onward, they were common, according to Harvard media and activism professor Michael Bronski, author of “A Queer History of the United States.”</p>
+      <p>What began as a mix of outdoor spaces as well as bars and clubs, Bronski said, became more focused in a bar culture in the years following World War II. It became the way for members of the LGBTQ+ community to find and meet each other.</p>
+      <p>“You see this sort of thriving bar culture beginning then [in the late 1940s], and then really becoming the spine, in many ways, for the gay community, because no one had Twitter yet, nobody had Grindr, nobody had apps,” Bronski said.</p>
+      <p>The bars, in the face of the illegality of homosexual acts in cities across the country, often ended up in poorer parts of town where rents were cheaper and police were likely to harass owners and customers, Bronski said.</p>
+      <p>“They were not fancy or glamorous,” Bronski said. “They were literally on the down- low, in many ways.”</p>
+      <p>Bill Svetz, the owner of Cathedral Station, said that police “weren’t as friendly.”</p>
+      <p>“In the days, whether it be the police or the inspectors, they seemed to come in more often in those days to gay establishments,” Svetz said.</p>
+      <p>They were also more plentiful. According to records from the History Project, a Boston LGBTQ+ history organization, at least 15 bars opened in the 1980s alone.</p>
+      <p>The number of open gay bars in Boston has since sharply decreased.</p>
+    </section>
+    <script src="js/fadeWaypoints.js"></script>
+  </body>
+</html>

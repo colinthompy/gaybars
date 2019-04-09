@@ -1,0 +1,3 @@
+Questions to ask:
+Image fade height responsive
+Tooltip sticky
