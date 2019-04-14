@@ -8,6 +8,13 @@ body{
 h1{
   width: 60%;
   margin-left: 20%;
+  font-size: 48pt;
+}
+
+h2{
+  width: 60%;
+  margin-left: 20%;
+  font-size: 28pt;
 }
 
 header{
@@ -20,7 +27,6 @@ header{
   display: table;
   font-family: "Roboto";
   font-weight: bold;
-  font-size: 24pt;
   color: white;
   text-align: center;
   text-transform: uppercase;
@@ -61,6 +67,13 @@ p{
   h1{
     width: 95%;
     margin-left: 5%;
+    font-size: 34pt;
+  }
+
+  h2{
+    width: 95%;
+    margin-left: 5%;
+    font-size: 26pt;
   }
 
   header{
@@ -72,7 +85,6 @@ p{
     display: table;
     font-family: "Roboto";
     font-weight: bold;
-    font-size: 16pt;
     color: white;
     text-align: center;
     text-transform: uppercase;
