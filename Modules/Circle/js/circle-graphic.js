@@ -3,21 +3,22 @@ var width = 900;
 var height = 900;
 var margin = {top: 25, left: 100, right: 25, bottom: 25};
 
-var data = {4.5, 16.0}
-
 var svg = d3.select("#circle-container")
   .append("svg")
   .attr("width",width)
   .attr("height", height);
 
-var elem =
+var grp = svg.append("g");
 
-var percent = svg.append("div")
+var percent = grp.append("text")
   .attr("class", "percent")
+  .attr("x", 115)
+  .attr("y", 475)
   .attr("z-index", "10")
-  .text("16.03%");
+  .text("4.5%")
+  .style("color","white");
 
-var innerCircle = svg.append("circle")
+var innerCircle = grp.append("circle")
   .attr("class","animateCircle")
   .attr("cx", width/4)
   .attr("cy", height/2)
@@ -25,7 +26,7 @@ var innerCircle = svg.append("circle")
   .attr("r", 20)
   .attr("z-index", "-1");
 
-var outsideCircle = svg.append("circle")
+var outsideCircle = grp.append("circle")
   .attr("cx", width/4)
   .attr("cy", height/2)
   .attr("fill", "none")

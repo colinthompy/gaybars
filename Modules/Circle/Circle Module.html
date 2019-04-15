@@ -5,20 +5,14 @@
     <link rel="stylesheet"  type="text/css" href="style.css">
     <style>
 
-    #circle-container{
-      position: absolute;
-      z-index: -2;
-    }
+      #circle-container{
+        position: absolute;
+        z-index: -2;
+      }
 
-    p{
-      z-index: 5;
-    }
-
-    .percent{
-      font-family: Roboto;
-      font-size: 64pt;
-      color: white;
-    }
+      p{
+        z-index: 5;
+      }
 
     </style>
     <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -26,18 +20,102 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum felis nulla, et mattis arcu pharetra cursus. Vivamus imperdiet velit a scelerisque sagittis. Fusce ornare pharetra turpis non auctor. Aenean aliquam tortor in lacinia pellentesque. Sed sit amet neque vel orci facilisis interdum nec quis justo. Nulla facilisi. Integer convallis dolor eros, in vehicula justo tristique eu. Aliquam erat volutpat. Sed velit dolor, eleifend id dui et, facilisis vulputate urna. Nulla consectetur bibendum nunc. Donec id quam vulputate, consectetur metus laoreet, volutpat magna. Proin accumsan tristique tortor, quis viverra quam sodales et. Nulla molestie consectetur lacinia. Vestibulum consequat erat quis elit porttitor eleifend. Nam ut ligula et nibh hendrerit ultrices.</p>
-    <p>Aenean eu diam gravida, sollicitudin ex a, ullamcorper massa. Aliquam erat volutpat. Integer mi libero, facilisis id libero lacinia, aliquam condimentum libero. Suspendisse nec dignissim dolor. Nulla aliquet tempor leo, at iaculis mauris dapibus eu. Aenean in tortor lectus. Phasellus elit dui, pellentesque a nunc vitae, scelerisque efficitur erat. Suspendisse nunc dui, vestibulum suscipit malesuada ut, viverra ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus consectetur vehicula augue in finibus. Pellentesque placerat elit facilisis nisi varius, tincidunt fermentum dolor pellentesque. Aliquam porta tortor eu blandit convallis.</p>
+    <div class="bodyText">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum felis nulla, et mattis arcu pharetra cursus. Vivamus imperdiet velit a scelerisque sagittis. Fusce ornare pharetra turpis non auctor. Aenean aliquam tortor in lacinia pellentesque. Sed sit amet neque vel orci facilisis interdum nec quis justo. Nulla facilisi. Integer convallis dolor eros, in vehicula justo tristique eu. Aliquam erat volutpat. Sed velit dolor, eleifend id dui et, facilisis vulputate urna. Nulla consectetur bibendum nunc. Donec id quam vulputate, consectetur metus laoreet, volutpat magna. Proin accumsan tristique tortor, quis viverra quam sodales et. Nulla molestie consectetur lacinia. Vestibulum consequat erat quis elit porttitor eleifend. Nam ut ligula et nibh hendrerit ultrices.</p>
+      <p>Aenean eu diam gravida, sollicitudin ex a, ullamcorper massa. Aliquam erat volutpat. Integer mi libero, facilisis id libero lacinia, aliquam condimentum libero. Suspendisse nec dignissim dolor. Nulla aliquet tempor leo, at iaculis mauris dapibus eu. Aenean in tortor lectus. Phasellus elit dui, pellentesque a nunc vitae, scelerisque efficitur erat. Suspendisse nunc dui, vestibulum suscipit malesuada ut, viverra ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus consectetur vehicula augue in finibus. Pellentesque placerat elit facilisis nisi varius, tincidunt fermentum dolor pellentesque. Aliquam porta tortor eu blandit convallis.</p>
+    </div>
     <div id="circle-container"></div>
-    <p id="trigger1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum felis nulla, et mattis arcu pharetra cursus. Vivamus imperdiet velit a scelerisque sagittis. Fusce ornare pharetra turpis non auctor. Aenean aliquam tortor in lacinia pellentesque. Sed sit amet neque vel orci facilisis interdum nec quis justo. Nulla facilisi. Integer convallis dolor eros, in vehicula justo tristique eu. Aliquam erat volutpat. Sed velit dolor, eleifend id dui et, facilisis vulputate urna. Nulla consectetur bibendum nunc. Donec id quam vulputate, consectetur metus laoreet, volutpat magna. Proin accumsan tristique tortor, quis viverra quam sodales et. Nulla molestie consectetur lacinia. Vestibulum consequat erat quis elit porttitor eleifend. Nam ut ligula et nibh hendrerit ultrices.</p>
-    <p>Aenean eu diam gravida, sollicitudin ex a, ullamcorper massa. Aliquam erat volutpat. Integer mi libero, facilisis id libero lacinia, aliquam condimentum libero. Suspendisse nec dignissim dolor. Nulla aliquet tempor leo, at iaculis mauris dapibus eu. Aenean in tortor lectus. Phasellus elit dui, pellentesque a nunc vitae, scelerisque efficitur erat. Suspendisse nunc dui, vestibulum suscipit malesuada ut, viverra ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus consectetur vehicula augue in finibus. Pellentesque placerat elit facilisis nisi varius, tincidunt fermentum dolor pellentesque. Aliquam porta tortor eu blandit convallis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum felis nulla, et mattis arcu pharetra cursus. Vivamus imperdiet velit a scelerisque sagittis. Fusce ornare pharetra turpis non auctor. Aenean aliquam tortor in lacinia pellentesque. Sed sit amet neque vel orci facilisis interdum nec quis justo. Nulla facilisi. Integer convallis dolor eros, in vehicula justo tristique eu. Aliquam erat volutpat. Sed velit dolor, eleifend id dui et, facilisis vulputate urna. Nulla consectetur bibendum nunc. Donec id quam vulputate, consectetur metus laoreet, volutpat magna. Proin accumsan tristique tortor, quis viverra quam sodales et. Nulla molestie consectetur lacinia. Vestibulum consequat erat quis elit porttitor eleifend. Nam ut ligula et nibh hendrerit ultrices.</p>
-    <p>Aenean eu diam gravida, sollicitudin ex a, ullamcorper massa. Aliquam erat volutpat. Integer mi libero, facilisis id libero lacinia, aliquam condimentum libero. Suspendisse nec dignissim dolor. Nulla aliquet tempor leo, at iaculis mauris dapibus eu. Aenean in tortor lectus. Phasellus elit dui, pellentesque a nunc vitae, scelerisque efficitur erat. Suspendisse nunc dui, vestibulum suscipit malesuada ut, viverra ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus consectetur vehicula augue in finibus. Pellentesque placerat elit facilisis nisi varius, tincidunt fermentum dolor pellentesque. Aliquam porta tortor eu blandit convallis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum felis nulla, et mattis arcu pharetra cursus. Vivamus imperdiet velit a scelerisque sagittis. Fusce ornare pharetra turpis non auctor. Aenean aliquam tortor in lacinia pellentesque. Sed sit amet neque vel orci facilisis interdum nec quis justo. Nulla facilisi. Integer convallis dolor eros, in vehicula justo tristique eu. Aliquam erat volutpat. Sed velit dolor, eleifend id dui et, facilisis vulputate urna. Nulla consectetur bibendum nunc. Donec id quam vulputate, consectetur metus laoreet, volutpat magna. Proin accumsan tristique tortor, quis viverra quam sodales et. Nulla molestie consectetur lacinia. Vestibulum consequat erat quis elit porttitor eleifend. Nam ut ligula et nibh hendrerit ultrices.</p>
-    <p>Aenean eu diam gravida, sollicitudin ex a, ullamcorper massa. Aliquam erat volutpat. Integer mi libero, facilisis id libero lacinia, aliquam condimentum libero. Suspendisse nec dignissim dolor. Nulla aliquet tempor leo, at iaculis mauris dapibus eu. Aenean in tortor lectus. Phasellus elit dui, pellentesque a nunc vitae, scelerisque efficitur erat. Suspendisse nunc dui, vestibulum suscipit malesuada ut, viverra ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus consectetur vehicula augue in finibus. Pellentesque placerat elit facilisis nisi varius, tincidunt fermentum dolor pellentesque. Aliquam porta tortor eu blandit convallis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum felis nulla, et mattis arcu pharetra cursus. Vivamus imperdiet velit a scelerisque sagittis. Fusce ornare pharetra turpis non auctor. Aenean aliquam tortor in lacinia pellentesque. Sed sit amet neque vel orci facilisis interdum nec quis justo. Nulla facilisi. Integer convallis dolor eros, in vehicula justo tristique eu. Aliquam erat volutpat. Sed velit dolor, eleifend id dui et, facilisis vulputate urna. Nulla consectetur bibendum nunc. Donec id quam vulputate, consectetur metus laoreet, volutpat magna. Proin accumsan tristique tortor, quis viverra quam sodales et. Nulla molestie consectetur lacinia. Vestibulum consequat erat quis elit porttitor eleifend. Nam ut ligula et nibh hendrerit ultrices.</p>
-    <p>Aenean eu diam gravida, sollicitudin ex a, ullamcorper massa. Aliquam erat volutpat. Integer mi libero, facilisis id libero lacinia, aliquam condimentum libero. Suspendisse nec dignissim dolor. Nulla aliquet tempor leo, at iaculis mauris dapibus eu. Aenean in tortor lectus. Phasellus elit dui, pellentesque a nunc vitae, scelerisque efficitur erat. Suspendisse nunc dui, vestibulum suscipit malesuada ut, viverra ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus consectetur vehicula augue in finibus. Pellentesque placerat elit facilisis nisi varius, tincidunt fermentum dolor pellentesque. Aliquam porta tortor eu blandit convallis.</p>
-    <script src="js/circle-graphic.js"></script>
+    <script>
+
+      var width = "100%";
+      var height = 900;
+      var margin = {top: 25, left: 100, right: 25, bottom: 25};
+
+      var svg = d3.select("#circle-container")
+        .append("svg")
+        .attr("width",width)
+        .attr("height", height)
+        .attr("viewBox", "0 0 900 900")
+        .attr("preserveAspectRatio", "xMinYMin")
+        ;
+
+
+      var grp = svg.append("g")
+        .attr("transform", "translate(0,0)");
+
+
+      var innerCircle = grp.append("circle")
+        .attr("class","animateCircle")
+        .attr("cx", width/4)
+        .attr("cy", height/2)
+        .attr("fill","#B83564")
+        .attr("r", 20)
+        .attr("z-index", "-1");
+
+      var outsideCircle = grp.append("circle")
+        .attr("cx", width/4 + "400px")
+        .attr("cy", height/2)
+        .attr("fill", "none")
+        .attr("stroke", "black")
+        .attr("stroke-width", 5)
+        .attr("r", 444.44)
+        .attr("z-index", "0");
+
+      var percent = grp.append("text")
+        .attr("class", "percent")
+        .attr("x", width/32)
+        .attr("y", height*.55)
+        .attr("z-index", "10")
+        .text("4.5%");
+
+      var explainer = grp.append("text")
+        .attr("class","explainer")
+        .attr("id", "explainerLn1")
+        .attr("width", "33%")
+        .attr("x", width/32)
+        .attr("y", (5*height)/8)
+        .attr("z-index", "10")
+        .text("of Americans identify");
+
+      var explainer = grp.append("text")
+        .attr("class","explainer")
+        .attr("id", "explainerLn2")
+        .attr("x", width/32)
+        .attr("y", (21*height)/32)
+        .attr("z-index", "10")
+        .text("as LGBTQ+");
+
+        function sourceURL() {
+          var url = 'http://google.com';
+          window.location.assign = url;
+        };
+
+      var credit = grp.append("text")
+        .attr("class", "credit")
+        .attr("id", "credit")
+        .attr("x", width/32)
+        .attr("y", (45*height)/64)
+        .attr("z-index", "10")
+        
+        .on("click", function (){
+          d3.select(this)
+            .wrap(`<a href="https://www.w3schools.com/graphics/" target="_blank"></a>`)
+            .text("Source:");
+      });
+
+
+
+    </script>
+    <div class="bodyText">
+      <p id="trigger1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum felis nulla, et mattis arcu pharetra cursus. Vivamus imperdiet velit a scelerisque sagittis. Fusce ornare pharetra turpis non auctor. Aenean aliquam tortor in lacinia pellentesque. Sed sit amet neque vel orci facilisis interdum nec quis justo. Nulla facilisi. Integer convallis dolor eros, in vehicula justo tristique eu. Aliquam erat volutpat. Sed velit dolor, eleifend id dui et, facilisis vulputate urna. Nulla consectetur bibendum nunc. Donec id quam vulputate, consectetur metus laoreet, volutpat magna. Proin accumsan tristique tortor, quis viverra quam sodales et. Nulla molestie consectetur lacinia. Vestibulum consequat erat quis elit porttitor eleifend. Nam ut ligula et nibh hendrerit ultrices.</p>
+      <p>Aenean eu diam gravida, sollicitudin ex a, ullamcorper massa. Aliquam erat volutpat. Integer mi libero, facilisis id libero lacinia, aliquam condimentum libero. Suspendisse nec dignissim dolor. Nulla aliquet tempor leo, at iaculis mauris dapibus eu. Aenean in tortor lectus. Phasellus elit dui, pellentesque a nunc vitae, scelerisque efficitur erat. Suspendisse nunc dui, vestibulum suscipit malesuada ut, viverra ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus consectetur vehicula augue in finibus. Pellentesque placerat elit facilisis nisi varius, tincidunt fermentum dolor pellentesque. Aliquam porta tortor eu blandit convallis.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum felis nulla, et mattis arcu pharetra cursus. Vivamus imperdiet velit a scelerisque sagittis. Fusce ornare pharetra turpis non auctor. Aenean aliquam tortor in lacinia pellentesque. Sed sit amet neque vel orci facilisis interdum nec quis justo. Nulla facilisi. Integer convallis dolor eros, in vehicula justo tristique eu. Aliquam erat volutpat. Sed velit dolor, eleifend id dui et, facilisis vulputate urna. Nulla consectetur bibendum nunc. Donec id quam vulputate, consectetur metus laoreet, volutpat magna. Proin accumsan tristique tortor, quis viverra quam sodales et. Nulla molestie consectetur lacinia. Vestibulum consequat erat quis elit porttitor eleifend. Nam ut ligula et nibh hendrerit ultrices.</p>
+      <p>Aenean eu diam gravida, sollicitudin ex a, ullamcorper massa. Aliquam erat volutpat. Integer mi libero, facilisis id libero lacinia, aliquam condimentum libero. Suspendisse nec dignissim dolor. Nulla aliquet tempor leo, at iaculis mauris dapibus eu. Aenean in tortor lectus. Phasellus elit dui, pellentesque a nunc vitae, scelerisque efficitur erat. Suspendisse nunc dui, vestibulum suscipit malesuada ut, viverra ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus consectetur vehicula augue in finibus. Pellentesque placerat elit facilisis nisi varius, tincidunt fermentum dolor pellentesque. Aliquam porta tortor eu blandit convallis.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum felis nulla, et mattis arcu pharetra cursus. Vivamus imperdiet velit a scelerisque sagittis. Fusce ornare pharetra turpis non auctor. Aenean aliquam tortor in lacinia pellentesque. Sed sit amet neque vel orci facilisis interdum nec quis justo. Nulla facilisi. Integer convallis dolor eros, in vehicula justo tristique eu. Aliquam erat volutpat. Sed velit dolor, eleifend id dui et, facilisis vulputate urna. Nulla consectetur bibendum nunc. Donec id quam vulputate, consectetur metus laoreet, volutpat magna. Proin accumsan tristique tortor, quis viverra quam sodales et. Nulla molestie consectetur lacinia. Vestibulum consequat erat quis elit porttitor eleifend. Nam ut ligula et nibh hendrerit ultrices.</p>
+      <p>Aenean eu diam gravida, sollicitudin ex a, ullamcorper massa. Aliquam erat volutpat. Integer mi libero, facilisis id libero lacinia, aliquam condimentum libero. Suspendisse nec dignissim dolor. Nulla aliquet tempor leo, at iaculis mauris dapibus eu. Aenean in tortor lectus. Phasellus elit dui, pellentesque a nunc vitae, scelerisque efficitur erat. Suspendisse nunc dui, vestibulum suscipit malesuada ut, viverra ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus consectetur vehicula augue in finibus. Pellentesque placerat elit facilisis nisi varius, tincidunt fermentum dolor pellentesque. Aliquam porta tortor eu blandit convallis.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum felis nulla, et mattis arcu pharetra cursus. Vivamus imperdiet velit a scelerisque sagittis. Fusce ornare pharetra turpis non auctor. Aenean aliquam tortor in lacinia pellentesque. Sed sit amet neque vel orci facilisis interdum nec quis justo. Nulla facilisi. Integer convallis dolor eros, in vehicula justo tristique eu. Aliquam erat volutpat. Sed velit dolor, eleifend id dui et, facilisis vulputate urna. Nulla consectetur bibendum nunc. Donec id quam vulputate, consectetur metus laoreet, volutpat magna. Proin accumsan tristique tortor, quis viverra quam sodales et. Nulla molestie consectetur lacinia. Vestibulum consequat erat quis elit porttitor eleifend. Nam ut ligula et nibh hendrerit ultrices.</p>
+      <p>Aenean eu diam gravida, sollicitudin ex a, ullamcorper massa. Aliquam erat volutpat. Integer mi libero, facilisis id libero lacinia, aliquam condimentum libero. Suspendisse nec dignissim dolor. Nulla aliquet tempor leo, at iaculis mauris dapibus eu. Aenean in tortor lectus. Phasellus elit dui, pellentesque a nunc vitae, scelerisque efficitur erat. Suspendisse nunc dui, vestibulum suscipit malesuada ut, viverra ac magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus consectetur vehicula augue in finibus. Pellentesque placerat elit facilisis nisi varius, tincidunt fermentum dolor pellentesque. Aliquam porta tortor eu blandit convallis.</p>
+    </div>
     <script src="js/waypoint-circle.js"></script>
   </body>
 </html>
