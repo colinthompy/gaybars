@@ -111,13 +111,19 @@ p{
   background-color: white;
 }
 
+#mapid{
+  height: 600px;
+  width: 80%;
+  margin-left: 10%
+}
+
 /* RESPONSIVE DESIGN: at the bottom so it OVERRIDES any pre-existing style properties that have been designed */
 
 /*@media queries essentially act as an if statement*/
 
 @media only screen and (max-width: 786px){
 
-  p{
+  .full-width p{
     width: 90%;
     font-size: 14pt;
     margin-left: 5%;
