@@ -7,7 +7,7 @@ var svg = d3.select("#circle-container1")
   .attr("class", "circle1")
   .attr("width","100%")
   .attr("height", "100%")
-  .attr("viewBox", "0 0 500 975")
+  .attr("viewBox", "0 0 500 1400")
   .attr("preserveAspectRatio", "xMinYMin");
 
 var grp = svg.append("g")
