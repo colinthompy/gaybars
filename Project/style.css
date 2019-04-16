@@ -45,6 +45,10 @@ header{
   border-top: 0px solid  white;
 }
 
+.byline{
+  text-align: center;
+}
+
 
 p{
   font-family: "Roboto Slab";
