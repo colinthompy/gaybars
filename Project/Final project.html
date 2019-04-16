@@ -24,6 +24,24 @@
       <section class="full-width">
         <p>“There were no windows and no names because of the closeted aspect, so no one would know what you were doing really,” Cody said. “You would go into this doorway with no markings on it, so if someone saw you they wouldn’t know what it was.”</p>
         <p>Beyond that, Cody said, gay life in Boston was limited.</p>
+        <script>
+          var width = "100%";
+          var height = 550;
+          var svg = d3.select("#coupleGraphic")
+            .append("svg")
+            .attr("class", "illustration")
+            .attr("width", width)
+            .attr("height", height)
+            .attr("height", height)
+            .attr("viewBox", "0 0 900 900")
+            .attr("preserveAspectRatio", "xMinYMin");
+          var couple = svg.append("svg:image")
+            .attr("xlink:href","images/Graphic1.svg")
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", "100%")
+            .attr("height", "100%");
+        </script>
         <p>“The only other option was going to the Fenway and having sex in the bushes, bathrooms, all that sleazy stuff,” Cody said. </p>
         <p>LGBTQ+ culture in Boston didn’t begin as focused on bars and clubs. From the 1920s onward, they were common, according to Harvard media and activism professor Michael Bronski, author of “A Queer History of the United States.”</p>
         <p>What began as a mix of outdoor spaces as well as bars and clubs, Bronski said, became more focused in a bar culture in the years following World War II. It became the way for members of the LGBTQ+ community to find and meet each other.</p>
@@ -54,6 +72,27 @@
       </div>
       <section class ="full-width">
         <p>The customer base for gay clubs in the Greater Boston area has greatly shrunk as dating apps and technology increase accessible opportunities to meet other LGBTQ+ individuals, particularly among younger generations.</p>
+        <div id="tinderGraphic"></div>
+        <script>
+          var width = "100%";
+          var height = 550;
+
+
+          var svg = d3.select("#tinderGraphic")
+            .append("svg")
+            .attr("class", "illustration")
+            .attr("width", width)
+            .attr("height", height)
+            .attr("viewBox", "0 0 550 550")
+            .attr("preserveAspectRatio", "xMinYMin meet");
+
+          var tinder = svg.append("svg:image")
+            .attr("xlink:href","images/Graphic3.svg")
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", "100%")
+            .attr("height", "100%");
+        </script>
         <p>It’s a transition that, Bronski said, began in the 1970s with the growing availability of telephones.</p>
         <p>“[Starting in the 1970s] there was systems of hooking up on the telephone — either phone sex or meeting people over the phone,” Bronski said. “And then, of course, you have the internet and everybody meeting one another virtually, not in physical spaces.”</p>
         <p>According to a 2017 survey conducted by Clue, a female health app, and the Kinsey Institute that recorded results from over 140,000 individuals, 49 percent of gay people have used a dating app to find a partner. This is almost double the number of straight people that use dating apps, which is estimated to be around 28 percent.</p>

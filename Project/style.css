@@ -74,6 +74,11 @@ p{
   display: none;
 }
 
+.illustration{
+  position: absolute;
+  z-index: -5;
+}
+
 /* RESPONSIVE DESIGN: at the bottom so it OVERRIDES any pre-existing style properties that have been designed */
 
 /*@media queries essentially act as an if statement*/
