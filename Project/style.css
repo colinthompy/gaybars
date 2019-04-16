@@ -94,6 +94,8 @@ p{
 #circle-container1{
   position: absolute;
   z-index: -2;
+  width: 700px;
+  height: 700px;
 }
 
 #circle-container2{
@@ -116,6 +118,14 @@ p{
   width: 80%;
   margin-left: 10%
 }
+
+#coupleGraphic{
+  width: 30%;
+  margin-left: 70%;
+}
+
+
+
 
 /* RESPONSIVE DESIGN: at the bottom so it OVERRIDES any pre-existing style properties that have been designed */
 
