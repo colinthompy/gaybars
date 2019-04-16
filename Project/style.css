@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700');
 
 body{
-  background-color: #272D4D;
+  background-color: white;
   margin: 0px;
 }
 
@@ -17,6 +17,15 @@ h2{
   font-size: 28pt;
 }
 
+h3{
+  width: 33.3%;
+  margin-left: 33.3%;
+  font-size: 24pt;
+  margin-top: 100px;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+
 header{
   width: 100%;
   height: 300px;
@@ -30,14 +39,21 @@ header{
   color: white;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 100px;
+  border-bottom: 5px solid #272D4D;
+  border-top: 15px solid  #272D4D;
 }
 
 p{
   font-family: "Roboto Slab";
-  color: white;
+  color: black;
   width: 33.3%;
   margin-left: 33.3%;
   padding-bottom: 10px;
+}
+
+.firstLetter{
+  font-size: 25pt;
 }
 
 .double-image img{
@@ -77,6 +93,12 @@ p{
 .illustration{
   position: absolute;
   z-index: -5;
+}
+
+#footer{
+  width: 100%;
+  height: 150px;
+  background-color: #272D4D;
 }
 
 /* RESPONSIVE DESIGN: at the bottom so it OVERRIDES any pre-existing style properties that have been designed */
