@@ -50,7 +50,29 @@ p{
   margin-top: -4px;
 }
 
+.percent{
+  font-family: "Roboto";
+  font-weight: bold;
+}
 
+.explainer{
+  font-family: "Roboto Slab";
+  color: "#83B8AA";
+  padding-left: 5px;
+}
+
+.credit{
+  font-family: "Roboto Slab";
+}
+
+#circle-container1{
+  position: absolute;
+  z-index: -2;
+}
+
+#circle-container2{
+  display: none;
+}
 
 /* RESPONSIVE DESIGN: at the bottom so it OVERRIDES any pre-existing style properties that have been designed */
 
@@ -66,13 +88,13 @@ p{
 
   h1{
     width: 95%;
-    margin-left: 5%;
+    margin-left: 2.5%;
     font-size: 34pt;
   }
 
   h2{
     width: 95%;
-    margin-left: 5%;
+    margin-left: 2.5%;
     font-size: 26pt;
   }
 
@@ -90,4 +112,12 @@ p{
     text-transform: uppercase;
   }
 
+  #circle-container1{
+    display: none;
+  }
+
+
+  #circle-container2{
+    display: block;
+  }
 }

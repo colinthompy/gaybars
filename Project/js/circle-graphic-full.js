@@ -2,8 +2,9 @@ var width = "100%";
 var height = 900;
 var margin = {top: 25, left: 100, right: 25, bottom: 25};
 
-var svg = d3.select("#circle-container")
+var svg = d3.select("#circle-container1")
   .append("svg")
+  .attr("class", "circle1")
   .attr("width",width)
   .attr("height", height)
   .attr("viewBox", "0 0 900 900")
@@ -34,6 +35,7 @@ var percent = grp.append("text")
   .attr("x", width/32)
   .attr("y", height*.55)
   .attr("z-index", "10")
+  .attr("font-size", "90pt")
   .text("4.5%");
 
 var explainer1 = grp.append("text")

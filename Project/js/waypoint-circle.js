@@ -1,6 +1,6 @@
 
-var circle1 = new Waypoint({
-  element: document.querySelector("#circle1"),
+var waypoint1 = new Waypoint({
+  element: document.querySelector("#trigger1"),
   handler: function(direction) {
     if(direction === "down") {
 
@@ -19,9 +19,6 @@ var circle1 = new Waypoint({
       d3.select("#explainerLn2")
         .text("on sexual orientation bias")
 
-      d3.select("#credit")
-        .text("Source: FBI 2017 Hate Crime Statistics")
-
 
     } else if(direction === "up") {
 
@@ -35,13 +32,10 @@ var circle1 = new Waypoint({
         .text("4.5%");
 
       d3.select(".explainer")
-        .text("of Americans identify");
+        .text("of Americans identify")
 
       d3.select("#explainerLn2")
-        .text("as LGBTQ+");
-
-      d3.select("#credit")
-        .text("Source: Gallup");
+        .text("as LGBTQ+")
 
     }
   }
