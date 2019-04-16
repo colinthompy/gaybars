@@ -27,24 +27,24 @@ var bobbysChange = new Waypoint({
   element: document.querySelector("#bobbysChange"),
   handler: function(direction) {
     if(direction === "down") {
-      $("#bobbys").fadeOut("slow");
-      document.querySelector("#bobbys").src="images/fillerBobbys.png";
-      $("#bobbys").fadeIn("slow");
+      document.querySelector("#bobbys").src="images/bobbyAnimate.gif";
+      document.querySelector("#bobbyCaption").innerHTML="The liquor store currently at 69 Canal St. <span class='photoCred'> Photo by Avery Bleichfeld</span>";
     } else if(direction === "up") {
-      $("#bobbys").fadeOut("slow");
-      document.querySelector("#bobbys").src="images/oldBobbys.jpg";
-      $("#bobbys").fadeIn("slow");
+      document.querySelector("#bobbys").src="images/bobbyAnimateR.gif";
+      document.querySelector("#bobbyCaption").innerHTML="The bar Bobby's at 69 Canal St. in the 1990s. <span class='photoCred'>Photo courtesy of the History Project</span>";
     }
   }
 });
 
-var chapsChange = new Waypoint({
-  element: document.querySelector("#chapsChange"),
+var jacquesChange = new Waypoint({
+  element: document.querySelector("#jacquesChange"),
   handler: function(direction) {
     if(direction === "down") {
-      document.querySelector("#chaps").src="images/fillerChaps.png";
+      document.querySelector("#jacques").src="images/jacquesAnimate.gif";
+      document.querySelector("#jacquesCaption").innerHTML="The bar Jacques's at 79 Canal St. today. <span class='photoCred'> Photo by Avery Bleichfeld</span>";
     } else if(direction === "up") {
-      document.querySelector("#chaps").src="images/oldChaps.jpg";
+      document.querySelector("#jacques").src="images/jacquesAnimateR.gif";
+      document.querySelector("#jacquesCaption").innerHTML="The bar Jacques's at 79 Canal St. in 1984. <span class='photoCred'>Photo courtesy of the History Project</span>";
     }
   }
 });

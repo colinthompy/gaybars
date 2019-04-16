@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <title>Image Fade jQuery Test</title>
     <style>
-      @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,700');
+      @import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300,400,700');
 
       body{
-        background-color: #272D4D;
+        background-color: steelblue;
         margin: 0px;
       }
 
@@ -15,7 +15,7 @@
         font-family: "Roboto";
         font-weight: bold;
         font-size: 24pt;
-        color: white;
+        color: black;
         width: 33.3%;
         margin-left: 33.3%;
         text-align: right;
@@ -24,10 +24,13 @@
 
       p{
         font-family: "Roboto Slab";
-        color: white;
+        color: black;
+        padding-bottom: 10px;
+      }
+
+      .full-width{
         width: 33.3%;
         margin-left: 33.3%;
-        padding-bottom: 10px;
       }
 
       .double-image img{
@@ -35,32 +38,23 @@
         margin-top: 5px;
       }
 
-      .image-caption{
-        font-size: 10pt;
-        margin-top: -4px;
-      }
 
       .map, .header{
         width: 33.3%;
         margin-left: 33.3%;
       }
 
-      #bobbysChange{
-        position: relative;
-        height: 1000px;
+
+      .image-caption{
+        font-family: "Roboto";
+        font-size: 10pt;
+        margin-top: -4px;
+        width: 100%;
+        text-align: center;
       }
 
-      #bobbysChange img{
-        position: absolute;
-        top: 100;
-      }
-
-      #bobbys{
-        z-index: 3;
-      }
-
-      #hBobbys{
-        z-index: 1;
+      .photoCred{
+        font-weight: 700;
       }
 
     </style>
@@ -86,7 +80,7 @@
       <div class="double-image" id="bobbysChange">
         <img src="images/oldBobbys.jpg" id="bobbys" alt="Interior of Bobby's in the 1990s.">
       </div>
-        <p class="image-caption"> Image caption </p>
+        <p class="image-caption" id="bobbyCaption"> The bar Bobby's at 69 Canal St in the 1990s. <span class="photoCred">Photo courtesy of the History Project</span></p>
     <section class="full-width">
       <p>“There were no windows and no names because of the closeted aspect, so no one would know what you were doing really,” Cody said. “You would go into this doorway with no markings on it, so if someone saw you they wouldn’t know what it was.”</p>
       <p>Beyond that, Cody said, gay life in Boston was limited.</p>

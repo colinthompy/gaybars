@@ -47,9 +47,12 @@ header{
 p{
   font-family: "Roboto Slab";
   color: black;
+  padding-bottom: 10px;
+}
+
+.full-width p{
   width: 33.3%;
   margin-left: 33.3%;
-  padding-bottom: 10px;
 }
 
 .firstLetter{
@@ -62,8 +65,15 @@ p{
 }
 
 .image-caption{
+  font-family: "Roboto";
   font-size: 10pt;
   margin-top: -4px;
+  width: 100%;
+  text-align: center;
+}
+
+.photoCred{
+  font-weight: 700;
 }
 
 .percent{

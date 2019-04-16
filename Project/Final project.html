@@ -39,31 +39,33 @@
 <!--      <div class="map">
         <img src="placeholder.png" alt="Map">
       </div> -->
-    <div class="full-width">
+    <div>
       <section class="full-width">
         <p>“There were no windows and no names because of the closeted aspect, so no one would know what you were doing really,” Cody said. “You would go into this doorway with no markings on it, so if someone saw you they wouldn’t know what it was.”</p>
         <p>Beyond that, Cody said, gay life in Boston was limited.</p>
         <p>“The only other option was going to the Fenway and having sex in the bushes, bathrooms, all that sleazy stuff,” Cody said. </p>
         <p>LGBTQ+ culture in Boston didn’t begin as focused on bars and clubs. From the 1920s onward, they were common, according to Harvard media and activism professor Michael Bronski, author of “A Queer History of the United States.”</p>
         <p>What began as a mix of outdoor spaces as well as bars and clubs, Bronski said, became more focused in a bar culture in the years following World War II. It became the way for members of the LGBTQ+ community to find and meet each other.</p>
+      </section>
         <div id="coupleGraphic"></div>
         <script>
-        var width = "100%";
-        var height = "100%";
-        var svg = d3.select("#coupleGraphic")
-        .append("svg")
-        .attr("class", "illustration")
-        .attr("width", width)
-        .attr("height", height)
-        .attr("viewBox", "0 0 730 550")
-        .attr("preserveAspectRatio", "xMinYMin");
-        var couple = svg.append("svg:image")
-        .attr("xlink:href","images/Graphic1.svg")
-        .attr("x", width)
-        .attr("y", 0)
-        .attr("width", "55%")
-        .attr("height", "55%");
+          var width = "100%";
+          var height = "100%";
+          var svg = d3.select("#coupleGraphic")
+          .append("svg")
+          .attr("class", "illustration")
+          .attr("width", width)
+          .attr("height", height)
+          .attr("viewBox", "0 0 730 550")
+          .attr("preserveAspectRatio", "xMinYMin");
+          var couple = svg.append("svg:image")
+          .attr("xlink:href","images/Graphic1.svg")
+          .attr("x", width)
+          .attr("y", 0)
+          .attr("width", "55%")
+          .attr("height", "55%");
         </script>
+      <section class="full-width">
         <p>“You see this sort of thriving bar culture beginning then [in the late 1940s], and then really becoming the spine, in many ways, for the gay community, because no one had Twitter yet, nobody had Grindr, nobody had apps,” Bronski said.</p>
         <p>The bars, in the face of the illegality of homosexual acts in cities across the country, often ended up in poorer parts of town where rents were cheaper and police were likely to harass owners and customers, Bronski said.</p>
         <p>“They were not fancy or glamorous,” Bronski said. “They were literally on the down-low, in many ways.”</p>
@@ -73,13 +75,15 @@
         <p>The number of open gay bars in Boston has since sharply decreased.</p>
       </section>
 
-        <div class="double-image" id="bobbysChange">
-          <img src="images/oldBobbys.jpg" id="bobbys" alt="Interior of Bobby's in the 1990s.">
-        </div>
-          <p class="image-caption"> Image caption </p>
+      <div class="double-image" id="bobbysChange">
+        <img src="images/oldBobbys.jpg" id="bobbys" alt="Interior of Bobby's in the 1990s.">
+      </div>
+        <p class="image-caption" id="bobbyCaption"> The bar Bobby's at 69 Canal St. in the 1990s. <span class="photoCred">Photo courtesy of the History Project</span></p>
+
       <section class="full-width">
         <h3>Shrinking Spaces</h3>
         <p><span class="firstLetter">O</span>ne of the most prominent causes of the gradually declining number of gay bars in Boston is the ultimate gentrification of the city. As prices of retail real estate rise in neighborhoods across Boston, including in largely LGBTQ+ populated neighborhoods like Fenway and the South End, historic gay bars have found they simply don’t generate enough revenue to afford rising rents.</p>
+      </section>
         <div id="buildingGraphic"></div>
         <script>
           var width = "100%";
@@ -98,19 +102,23 @@
             .attr("width", "55%")
             .attr("height", "55%");
         </script>
+      <section class="full-width">
         <p>And, the demand for retail spaces is exponentially rising, according to quarterly market reports from Cushman and Wakefield, a global real estate services firm. According to their 2011 third-quarter report, Boston’s vacancy rate for retail spaces across the city was 13.8 percent. In comparison, in the firm’s 2017 fourth-quarter report, Boston’s retail vacancy rate was only 6.2 percent.</p>
         <p>This multi-year trend of declining vacancy in the city is only projected to continue, according to the 2017 report.</p>
         <p>Additionally, over this six-year decline, retail spaces in Boston have absorbed almost 11 million square feet of space. This highlights the trend of more and more companies and restaurants moving into other, seemingly less costly neighborhoods—like Fenway and South Boston—in order to find more affordable space. In turn, though, this pushes rents up and forces more historical establishments in those neighborhoods to close their doors.</p>
         <p>“Because of economic upswing, cities are becoming gentrified,” Bronski said. “Pretty much nobody in a nice new, sort of fancier, neighborhood wants any bar by their house and certainly not a gay bar.”</p>
         <p>In the last few years, Boston’s LGBTQ+ community has witnessed this firsthand with the closing of the gay bar Paradise in September 2018, which was the last open gay bar in Cambridge. Previously located on Massachusetts Avenue, the bar began gradually losing younger customers. [Insert more here on reasoning behind Paradise’s closing]</p>
       </section>
-      <div class="double-image" id="chapsChange">
-        <img src="images/oldChaps.jpg" id="chaps" alt="Exterior of Chaps in 1984">
-        <p class="image-caption"> Image caption </p>
+
+      <div class="double-image" id="jacquesChange">
+        <img src="images/oldjacques.jpg" id="jacques" alt="Exterior of Jacques's in 1984.">
       </div>
+        <p class="image-caption" id="jacquesCaption"> The bar Jacques's at 79 Canal St. in 1984. <span class="photoCred">Photo courtesy of the History Project</span></p>
+
       <section class ="full-width">
         <h3>Digital Alternatives</h3>
         <p><span class="firstLetter">T</span>he customer base for gay clubs in the Greater Boston area has greatly shrunk as dating apps and technology increase accessible opportunities to meet other LGBTQ+ individuals, particularly among younger generations.</p>
+      </section>
         <div id="tinderGraphic"></div>
         <script>
           var width = "100%";
@@ -129,6 +137,7 @@
             .attr("width", "75%")
             .attr("height", "75%");
         </script>
+      <section class="full-width">
         <p>It’s a transition that, Bronski said, began in the 1970s with the growing availability of telephones.</p>
         <p>“[Starting in the 1970s] there was systems of hooking up on the telephone—either phone sex or meeting people over the phone,” Bronski said. “And then, of course, you have the internet and everybody meeting one another virtually, not in physical spaces.”</p>
         <p>According to a 2017 survey conducted by Clue, a female health app, and the Kinsey Institute that recorded results from over 140,000 individuals, 49 percent of gay people have used a dating app to find a partner. This is almost double the number of straight people that use dating apps, which is estimated to be around 28 percent.</p>
@@ -142,35 +151,35 @@
       <section class="full-width">
         <p>Boston isn’t the only major city to feel this pressure. Across the country, historically LGBTQ+ neighborhoods and spaces have been forced to adapt to the shifting urban environment, or else they too fade out of existence. Greenwich Village in New York City, Boystown in Chicago and The Castro in San Francisco have experienced the same machinations that have shoved queer Bostonians to other neighborhoods or cities.</p>
         <p>These neighborhoods, once largely looked over, provided a source of cheap real estate. Queer individuals, ostracized by greater society, found solace in these neighborhoods among others of the same sexual orientation or gender identity. From these communities sprung political movements like those seen following the Stonewall riots, to advocating for public health crises like the HIV/AIDS epidemic.</p>
+      </section>
         <div id="discoGraphic"></div>
         <script>
-        var width = "100%";
-        var height = "100%";
-        var svg = d3.select("#discoGraphic")
-          .append("svg")
-          .attr("class", "illustration")
-          .attr("width", width)
-          .attr("height", height)
-          .attr("viewBox", "0 0 730 550")
-          .attr("preserveAspectRatio", "xMinYMin");
-          var couple = svg.append("svg:image")
-          .attr("xlink:href","images/Graphic4.svg")
-          .attr("x", width)
-          .attr("y", 0)
-          .attr("width", "55%")
-          .attr("height", "55%");
+          var width = "100%";
+          var height = "100%";
+          var svg = d3.select("#discoGraphic")
+            .append("svg")
+            .attr("class", "illustration")
+            .attr("width", width)
+            .attr("height", height)
+            .attr("viewBox", "0 0 730 550")
+            .attr("preserveAspectRatio", "xMinYMin");
+            var couple = svg.append("svg:image")
+            .attr("xlink:href","images/Graphic4.svg")
+            .attr("x", width)
+            .attr("y", 0)
+            .attr("width", "55%")
+            .attr("height", "55%");
         </script>
+      <section class="full-width">
         <p>As these communities developed and became stronger economically and politically, others began to take notice. The desire to live in these once-neglected neighborhoods skyrocketed and many people capitalizing on the cheaper cost of living moved in. Especially in the case of Seattle and San Francisco, these were typically people moving in response to the booming technology sector. As the demographic makeup of these communities became more orthodox, more commercial franchises entered the area, putting pressures on the LGBTQ-centered and owned businesses.</p>
         <div class="sticky graphic" id="circle-container1"></div>
         <p id="circle1">Gay bars, seen as a place for refuge for certain queer people, are particularly impacted by these shifts. Between 2005 and 2011 on Damron, the self-declared “first name and last world in lesbian and gay travel,” the number of gay and lesbian bars listed dropped from 1,605 to 1,405.</p>
-      </section>
-      <section class = "sticky-text">
         <h3>Bullet-shaped Storm Cloud</h3>
         <p><span class="firstLetter">W</span>ith less LGBTQ-centered spaces, the safety and security of the LGBTQ+ individuals living in these neighborhoods comes under question. In a 2014 study conducted by The Fenway Institute, 65 percent of LGBTQ+ individuals reported experiencing some form of discrimination in a public setting. While gay bars may not always be a bastion for those who are LGBTQ+, they are a public space in which many queer people can exist in relative comfort. With the closure of these spaces also brings a loss of spaces for people to meet and spend time together casually, ultimately infringing the previous sense of safety and community that may have been present.</p>
         <p>Additionally, there is a wide fear among the queer community of being victims of a hate crime, a fear that was exacerbated by the 2016 Pulse Nightclub shooting in Orlando that killed 49 people and wounded 53 others, the majority of which were LGBTQ+ individuals. And, this fear is just; although LGBTQ+ people make up an estimated 4.5 percent of the overall American population, they also make up more than 16 percent of federally reported hate crime victims, according to the FBI’s 2018 annual report on hate crimes.</p>
+      </section>
         <div id="circle2"></div>
         <div class="sticky graphic" id="circle-container2"></div>
-      </section>
       <section class ="full-width">
         <p>So, this fear of victimization or discrimination could also be a large factor in the overall decrease of gay bars in modern society.</p>
         <p>On the other hand, though, Svetz suggests that gay bars are also fading in part because the LGBTQ+ community no longer feels as if they need a specific place to be themselves, as they feel they’re becoming more and more welcome in non-gay bars and restaurants.</p>
