@@ -125,4 +125,8 @@ p{
   #circle-container2{
     display: block;
   }
+
+  .illustration{
+    opacity: .5;
+  }
 }
