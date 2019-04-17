@@ -1,4 +1,0 @@
-Questions to ask:
--Link in SVG?
--Moving the explainer text in CIRCLE over?
--Changing the color of the percent in CIRCLE?
