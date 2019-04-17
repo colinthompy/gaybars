@@ -2,8 +2,7 @@ var width = 325;
 var height = 550;
 var margin = {top: 75, left: 25, right: 60, bottom: 150}
 
-
-var svg = d3.select("body")
+var svg = d3.select("#barchart")
   .append("svg")
   .attr("width",width)
   .attr("height",height)
