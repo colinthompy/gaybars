@@ -1,13 +1,13 @@
-var width = "100%";
+var width = 900;
 var height = 900;
 var margin = {top: 25, left: 100, right: 25, bottom: 25};
 
 var svg = d3.select("#circle-container1")
   .append("svg")
   .attr("class", "circle1")
-  .attr("width",width)
-  .attr("height", height)
-  .attr("viewBox", "0 0 900 900")
+  .attr("width","100%")
+  .attr("height", "100%")
+  .attr("viewBox", "0 0 500 1400")
   .attr("preserveAspectRatio", "xMinYMin");
 
 var grp = svg.append("g")
@@ -15,14 +15,14 @@ var grp = svg.append("g")
 
 var innerCircle = grp.append("circle")
   .attr("class","animateCircle")
-  .attr("cx", width/4)
+  .attr("cx", width/8)
   .attr("cy", height/2)
   .attr("fill","#B83564")
   .attr("r", 20)
   .attr("z-index", "-1");
 
 var outsideCircle = grp.append("circle")
-  .attr("cx", width/4 + "400px")
+  .attr("cx", width/8)
   .attr("cy", height/2)
   .attr("fill", "none")
   .attr("stroke", "black")

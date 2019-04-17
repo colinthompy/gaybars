@@ -1,5 +1,5 @@
 var width = "100%";
-var height = 900;
+var height = "100%";
 var margin = {top: 25, left: 25, right: 25, bottom: 25};
 
 var svg = d3.select("#circle-container2")
