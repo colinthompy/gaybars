@@ -130,6 +130,11 @@ p{
   margin-left: 70%;
 }
 
+#barchart{
+  margin-left: 75%;
+  position: absolute;
+}
+
 
 
 
@@ -182,5 +187,11 @@ p{
 
   .illustration{
     opacity: .5;
+  }
+
+  #barchart{
+    width: 50%;
+    margin-left: 35%;
+    position: relative;
   }
 }
